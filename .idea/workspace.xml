@@ -37,7 +37,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in APP_ASSESMENT_VOORBEREIDING">
+  <component name="RunManager" selected="Application.SpeedTest">
+    <configuration name="SpeedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.SpeedTest" />
+      <module name="APP_ASSESMENT_VOORBEREIDING" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in APP_ASSESMENT_VOORBEREIDING" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APP_ASSESMENT_VOORBEREIDING" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,23 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest.testSortedInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APP_ASSESMENT_VOORBEREIDING" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortTest" />
-      <option name="METHOD_NAME" value="testSortedInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpeedTest" />
         <item itemvalue="JUnit.All in APP_ASSESMENT_VOORBEREIDING" />
         <item itemvalue="JUnit.InsertionSortTest" />
         <item itemvalue="JUnit.InsertionSortTest.testSmallInput" />
         <item itemvalue="JUnit.MergeSortTest" />
-        <item itemvalue="JUnit.MergeSortTest.testSortedInput" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +109,7 @@
       <updated>1567952447126</updated>
       <workItem from="1567952451109" duration="3497000" />
       <workItem from="1567971201701" duration="6267000" />
-      <workItem from="1568024739902" duration="1950000" />
+      <workItem from="1568024739902" duration="3476000" />
     </task>
     <servers />
   </component>
