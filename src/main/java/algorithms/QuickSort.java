@@ -1,11 +1,7 @@
 package algorithms;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Random;
-
-public class QuickSort {
-    public void quickSort(int[] A) {
+public class QuickSort implements Sort {
+    public void sortArray(int[] A) {
         quickSort(A, 0, A.length-1); // roep quicksort aan met de (index) hoogste en laagste waarde van de lijst
     }
 

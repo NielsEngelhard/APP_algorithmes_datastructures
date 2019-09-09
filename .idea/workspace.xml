@@ -12,6 +12,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -36,11 +37,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest">
+  <component name="RunManager" selected="JUnit.All in APP_ASSESMENT_VOORBEREIDING">
     <configuration name="All in APP_ASSESMENT_VOORBEREIDING" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APP_ASSESMENT_VOORBEREIDING" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APP_ASSESMENT_VOORBEREIDING" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InsertionSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortTest.testSmallInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APP_ASSESMENT_VOORBEREIDING" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InsertionSortTest" />
+      <option name="METHOD_NAME" value="testSmallInput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,16 +70,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MergeSortTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortTest.testReversedInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APP_ASSESMENT_VOORBEREIDING" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortTest" />
-      <option name="METHOD_NAME" value="testReversedInput" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,22 +84,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APP_ASSESMENT_VOORBEREIDING" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuickSortTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in APP_ASSESMENT_VOORBEREIDING" />
+        <item itemvalue="JUnit.InsertionSortTest" />
+        <item itemvalue="JUnit.InsertionSortTest.testSmallInput" />
         <item itemvalue="JUnit.MergeSortTest" />
         <item itemvalue="JUnit.MergeSortTest.testSortedInput" />
-        <item itemvalue="JUnit.All in APP_ASSESMENT_VOORBEREIDING" />
-        <item itemvalue="JUnit.MergeSortTest.testReversedInput" />
-        <item itemvalue="JUnit.QuickSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +106,7 @@
       <updated>1567952447126</updated>
       <workItem from="1567952451109" duration="3497000" />
       <workItem from="1567971201701" duration="6267000" />
-      <workItem from="1568024739902" duration="463000" />
+      <workItem from="1568024739902" duration="1950000" />
     </task>
     <servers />
   </component>

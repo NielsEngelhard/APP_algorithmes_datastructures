@@ -1,12 +1,12 @@
 package algorithms;
 
-public class MergeSort {
+public class MergeSort implements Sort {
 
-    public void mergeSort(int[] list) {
+    public void sortArray(int[] list) {
         mergeSort(list, 0, list.length - 1);
     }
 
-    public void mergeSort (int[] list, int lowIndex, int highIndex) {
+    private void mergeSort (int[] list, int lowIndex, int highIndex) {
         if (lowIndex == highIndex)
             return;
         else {
@@ -17,7 +17,7 @@ public class MergeSort {
         }
     }
 
-    public void merge(int[] list, int lowIndex, int midIndex, int highIndex) {
+    private void merge(int[] list, int lowIndex, int midIndex, int highIndex) {
         int[] L = new int[midIndex - lowIndex + 2];
 
         for (int i = lowIndex; i <= midIndex; i++) {
