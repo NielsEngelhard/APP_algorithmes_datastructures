@@ -21,8 +21,8 @@ public class MergeSortTest extends TestCase {
         //arrange
         int[] expectedResult= {1,2,3,5,6,32,43};
         //act
-        int[] result = mergeSort.mergeSort(smallRandomInput, smallRandomInput.length-1);
-        String stringResult = Arrays.toString(result);
+        mergeSort.mergeSort(smallRandomInput);
+        String stringResult = Arrays.toString(smallRandomInput);
         String stringExpected = Arrays.toString(expectedResult);
         //assert
         assertEquals(stringExpected, stringResult);
@@ -32,8 +32,8 @@ public class MergeSortTest extends TestCase {
         //arrange
         int[] expectedResult= {1,2,3,4,5,6,7,8};
         //act
-        int[] result = mergeSort.mergeSort(sortedInput, sortedInput.length - 1);
-        String stringResult = Arrays.toString(result);
+        mergeSort.mergeSort(sortedInput);
+        String stringResult = Arrays.toString(sortedInput);
         String stringExpected = Arrays.toString(expectedResult);
         //assert
         assertEquals(stringExpected, stringResult);
@@ -42,8 +42,8 @@ public class MergeSortTest extends TestCase {
     public void testReversedInput() {
         //arrange
         int[] expectedSortedResult= {0, 1, 3, 8, 9, 10, 11, 33, 80, 90};
-        int[] result = mergeSort.mergeSort(reversedInput, reversedInput.length - 1);
-        String stringResult = Arrays.toString(result);
+        mergeSort.mergeSort(reversedInput);
+        String stringResult = Arrays.toString(reversedInput);
         String stringExpected = Arrays.toString(expectedSortedResult);
         //assert
         assertEquals(stringExpected, stringResult);

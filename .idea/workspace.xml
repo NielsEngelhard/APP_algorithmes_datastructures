@@ -36,7 +36,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest.testReversedInput">
+  <component name="RunManager" selected="JUnit.MergeSortTest">
+    <configuration name="All in APP_ASSESMENT_VOORBEREIDING" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APP_ASSESMENT_VOORBEREIDING" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APP_ASSESMENT_VOORBEREIDING" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,6 +64,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSortTest.testSortedInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APP_ASSESMENT_VOORBEREIDING" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MergeSortTest" />
+      <option name="METHOD_NAME" value="testSortedInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APP_ASSESMENT_VOORBEREIDING" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,33 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortTest.testQuickSortSortedInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APP_ASSESMENT_VOORBEREIDING" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuickSortTest" />
-      <option name="METHOD_NAME" value="testQuickSortSortedInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSortTest.testQuicksortSmallInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APP_ASSESMENT_VOORBEREIDING" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuickSortTest" />
-      <option name="METHOD_NAME" value="testQuicksortSmallInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergeSortTest.testReversedInput" />
         <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.MergeSortTest.testSortedInput" />
+        <item itemvalue="JUnit.All in APP_ASSESMENT_VOORBEREIDING" />
+        <item itemvalue="JUnit.MergeSortTest.testReversedInput" />
         <item itemvalue="JUnit.QuickSortTest" />
-        <item itemvalue="JUnit.QuickSortTest.testQuickSortSortedInput" />
-        <item itemvalue="JUnit.QuickSortTest.testQuicksortSmallInput" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567952447126</updated>
       <workItem from="1567952451109" duration="3497000" />
-      <workItem from="1567971201701" duration="4952000" />
+      <workItem from="1567971201701" duration="6267000" />
+      <workItem from="1568024739902" duration="463000" />
     </task>
     <servers />
   </component>
