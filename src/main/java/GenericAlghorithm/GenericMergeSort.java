@@ -1,12 +1,15 @@
 package GenericAlghorithm;
 //
+//import java.lang.reflect.Array;
+//
+//import java.util.Arrays;
+//
 public class GenericMergeSort implements IGSort {
 //
     @Override
     public <T extends Comparable<T>> void sortArray(T[] list) {
+//        mergeSort(list, 0, list.length - 1);
     }
-
-//    }
 //
 //    private <T extends Comparable<T>> void mergeSort (T[] list, int lowIndex, int highIndex) {
 //        if (lowIndex == highIndex)
@@ -22,10 +25,12 @@ public class GenericMergeSort implements IGSort {
 //    private <T extends Comparable<T>> void merge(T[] list, int lowIndex, int midIndex, int highIndex) {
 //        T[] L = new T[midIndex - lowIndex + 2];
 //
+//        Array.newInstance(T);
+//
 //        for (int i = lowIndex; i <= midIndex; i++) {
 //            L[i - lowIndex] = list[i];
 //        }
-//        L[midIndex - lowIndex + 1] = T.MAX_VALUE;
+//        L[midIndex - lowIndex + 1] = Integer.MAX_VALUE;
 //        int[] R = new int[highIndex - midIndex + 1];
 //
 //        for (int i = midIndex + 1; i <= highIndex; i++) {
@@ -45,4 +50,6 @@ public class GenericMergeSort implements IGSort {
 //            }
 //        }
 //    }
+//
+//
 }

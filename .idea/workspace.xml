@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c020ed-6af4-4406-bf6e-bf898144e99a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericInsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GenericAlghorithm/IGSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GenericsAlgorithmsTest/GenInsertionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GenericsAlgorithmsTest/GenMergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GenericsAlgorithmsTest/GenQuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GenericsAlgorithmsTest/IGenSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InsertionSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MergeSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuickSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/APP_ASSESMENT_VOORBEREIDING.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InsertionSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InsertionSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/APP_ASSESMENT_VOORBEREIDING.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MergeSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MergeSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/QuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QuickSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericMergeSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,68 +21,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="50" />
+          <entry key="java" value="53" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="50" />
+          <entry key="JAVA" value="53" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1433" />
+          <entry key="java" value="1527" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1433" />
+          <entry key="JAVA" value="1527" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericQuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericInsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -179,43 +124,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="assesment_voorbereiding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APP_ASSESMENT_VOORBEREIDING" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assesment_voorbereiding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APP_ASSESMENT_VOORBEREIDING" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericAlghorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assesment_voorbereiding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APP_ASSESMENT_VOORBEREIDING" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assesment_voorbereiding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APP_ASSESMENT_VOORBEREIDING" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assesment_voorbereiding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APP_ASSESMENT_VOORBEREIDING" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericsAlgorithmsTest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568282053045" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568282444866" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HAN_APP" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -342,7 +250,7 @@
       <workItem from="1567952451109" duration="3497000" />
       <workItem from="1567971201701" duration="6267000" />
       <workItem from="1568024739902" duration="3476000" />
-      <workItem from="1568276540572" duration="5822000" />
+      <workItem from="1568276540572" duration="6154000" />
     </task>
     <servers />
   </component>
@@ -379,7 +287,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5822000" />
+    <option name="totallyTimeSpent" value="6154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -389,7 +297,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17986578" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17986578" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Sequence" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -400,7 +308,7 @@
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.17847025" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.17847025" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -524,38 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericInsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericMergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GenericsAlgorithmsTest/GenMergeSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -565,12 +441,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericQuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="120">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
             <element signature="e#608#609#0" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericInsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
