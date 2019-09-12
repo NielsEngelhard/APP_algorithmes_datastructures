@@ -1,0 +1,9 @@
+
+@squid:S1214""Move constants to a class or enum.(ÿ™½Ü8ÿÊ–¦Ò-
+Ssquid:S2386"5Move "exResSmall" to a class and lower its visibility(ó°†Ñ8ÿÊ–¦Ò-
+Ssquid:S2386"6Move "sortedInput" to a class and lower its visibility(Òşš8ÿÊ–¦Ò-
+Usquid:S2386"8Move "reversedInput" to a class and lower its visibility(‡ˆ8ÿÊ–¦Ò-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥´ÚŞûÿÿÿÿ
+Vsquid:S2386"3Move "exResRev" to a class and lower its visibility(†éËâÿÿÿÿÿ8ÿÊ–¦Ò-
+Tsquid:S2386"6Move "exResSorted" to a class and lower its visibility(ïäìí8ÿÊ–¦Ò-
+Ysquid:S2386";Move "smallRandomInput" to a class and lower its visibility(Ù÷¿ş8ÿÊ–¦Ò-

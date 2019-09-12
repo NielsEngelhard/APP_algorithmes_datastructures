@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6c020ed-6af4-4406-bf6e-bf898144e99a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericAlghorithm/GenericMergeSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="b6c020ed-6af4-4406-bf6e-bf898144e99a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +13,7 @@
     <session id="-1271160766">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -133,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568282444866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568282706385" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HAN_APP" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -250,7 +249,7 @@
       <workItem from="1567952451109" duration="3497000" />
       <workItem from="1567971201701" duration="6267000" />
       <workItem from="1568024739902" duration="3476000" />
-      <workItem from="1568276540572" duration="6154000" />
+      <workItem from="1568276540572" duration="6168000" />
     </task>
     <servers />
   </component>
@@ -287,7 +286,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6154000" />
+    <option name="totallyTimeSpent" value="6168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -308,7 +307,7 @@
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.17847025" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.17847025" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
