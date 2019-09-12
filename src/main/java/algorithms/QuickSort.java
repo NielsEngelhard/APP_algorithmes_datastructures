@@ -14,7 +14,7 @@ public class QuickSort implements Sort {
     }
 
     private int getPivot(int low, int middle, int high) { // mediaan "berekenen" util functie
-        return (low + middle + high) / 3;
+        return middle;
     }
 
     private void swap(int[] A, int index1, int index2) { // util functie om te swappen
