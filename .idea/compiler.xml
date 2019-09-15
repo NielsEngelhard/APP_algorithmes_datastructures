@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="APP_ASSESMENT_VOORBEREIDING" />
         <module name="assesment_voorbereiding" />
+        <module name="APP_ASSESMENT_VOORBEREIDING" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
