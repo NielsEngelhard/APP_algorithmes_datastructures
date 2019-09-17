@@ -30,6 +30,10 @@ public class OwnGenericArrayList<T> {
             pointerNewValue++;
         }
 
+        public String toString() {
+            return "values in array";
+        }
+
         public Object get(int index) {
             return list[index];
         }

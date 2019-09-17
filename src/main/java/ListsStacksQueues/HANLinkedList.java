@@ -3,94 +3,90 @@ package ListsStacksQueues;
 public class HANLinkedList<T> {
 
         ListNode<T> headNode;
-        ListNode<T> firstPosition;
+        ListNode<T> lastPosition;
         private int size;
 
         public HANLinkedList() {
             headNode = new ListNode<T>(null);
-            firstPosition = headNode;
-            size = 0;
+            lastPosition = headNode;
         }
 
-        public void addFirst(T object) {
-            ListNode<T> newNode = new ListNode<T>(object);
-            newNode.next = firstPosition;
-            firstPosition = newNode;
+        public void addFirst(T value) {
+            ListNode<T> toAdd = new ListNode<T>(value);
+            if(headNode.next == null) {
+                lastPosition = toAdd;
+            }
+            toAdd.next = headNode.next;
+            headNode.next = toAdd;
             size++;
         }
 
         public void removeFirst() {
-            ListNode<T> toDelete = firstPosition;
-            if(!isEmpty()) {
-                firstPosition = firstPosition.next;
-            } else {
-                System.out.println("list is empty");
-            }
+            headNode.next = headNode.next.next;
             size--;
         }
 
-        public void add(int index, T value) {
+        public void insert(int index, T value) {
             ListNode<T> toAdd = new ListNode<T>(value);
-            ListNode<T> current = firstPosition;
-            for(int i = 0; i < index - 1; i++) {
-                if (current.next != null) {
-                    current = current.next;
-                }
+            ListNode<T> current = headNode;
+            for(int i = 0; i < index; i++) {
+                current = current.next;
             }
             toAdd.next = current.next;
             current.next = toAdd;
             size++;
         }
 
-        public void remove(int index) {
-            ListNode<T> current = firstPosition;
-
+        public void delete(int index) {
+            ListNode<T> current = headNode;
+            for(int i = 0; i < index; i++) {
+                current = current.next;
+            }
             current.next = current.next.next;
             size--;
         }
 
         public T get(int index) {
-            ListNode<T> current = firstPosition;
-            for(int i = 0; i <= index - 1; i++) {
-                if(current.next != null) {
-                    current = current.next;
-                } else {
-                    System.out.println("position does not exist");
-                    return null;
-                }
-            }
-            return current.object;
-        }
-
-        public boolean isEmpty() {
-            return firstPosition == null;
-        }
-
-        public void printList() {
-            ListNode<T> current = firstPosition;
-            while(current.next != null) {
-                System.out.println(current.object);
-
+            ListNode<T> current = headNode.next;
+            for(int i = 0; i < index; i++) {
                 current = current.next;
             }
+            return current.value;
         }
 
         public int getSize() {
             return size;
         }
+
+        public String toString() {
+            ListNode<T> current = headNode;
+            String toReturn = "";
+
+            while(current.next != null) {
+                current.next = current.next.next;
+                toReturn = toReturn + current.value + ",";
+            }
+
+            return toReturn;
+        }
+
+        public boolean isEmpty() {
+            return headNode.next == null;
+        }
+
     }
 
     class ListNode<T> {
 
-        public T object;
-        public ListNode<T> next;
+        public T value;
+        public ListNode<T> next = null;
 
-        public ListNode(T object) {
-            this.object = object;
+        public ListNode(T value) {
+            this.value = value;
         }
 
         public String toString() {
-            return object.toString();
+            return value.toString();
         }
     }
 

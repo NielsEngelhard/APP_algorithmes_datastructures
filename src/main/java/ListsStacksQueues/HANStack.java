@@ -1,40 +1,40 @@
 package ListsStacksQueues;
 
 public class HANStack<T> {
-    private HANLinkedList<T> theList;
-    private static final int DEFAULT_CAPACITY = 10;
+    HANLinkedList<T> list;
 
     public HANStack() {
-        theList = new HANLinkedList<T>();
+        list = new HANLinkedList<T>();
     }
 
     public void pop() {
-        if (isEmpty()) {
-            System.out.println("Cant pop, stack is empty");
+        if(isEmpty()) {
+            System.out.println("Cant pop because the list is empty");
+        } else {
+            list.removeFirst();
         }
-        theList.removeFirst();
     }
 
     public T top() {
-        if (isEmpty()) {
-            return null;
+        if(isEmpty()) {
+            throw new ArrayIndexOutOfBoundsException();
         }
-        return theList.get(0);
+            return list.get(0);
     }
 
-    public void push(T x) {
-        theList.addFirst(x);
-    }
-
-    public int getSize() {
-        return theList.getSize();
+    public void push(T value) {
+        list.addFirst(value);
     }
 
     public boolean isEmpty() {
-        return theList.isEmpty();
+        return list.isEmpty();
     }
 
-    public void printStack() {
-        theList.printList();
+    public int getSize() {
+        return list.getSize();
+    }
+
+    public String toString() {
+        return list.toString();
     }
 }

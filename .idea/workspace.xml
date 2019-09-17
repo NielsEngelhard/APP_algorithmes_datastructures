@@ -25,7 +25,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568282706385" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -42,16 +42,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestOwnArrayList.testMultiplyArrayLength">
-    <configuration name="OwnArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListsStacksQueues.OwnArrayList" />
+  <component name="RunManager" selected="JUnit.TestHANLinkedList.testGetSize">
+    <configuration name="TestHANLinkedList.testAddFirstAndGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APP_ASSESMENT_VOORBEREIDING" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ListsStacksQueues.*" />
+          <option name="PATTERN" value="ListsStacksQueuesTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ListsStacksQueuesTest" />
+      <option name="MAIN_CLASS_NAME" value="ListsStacksQueuesTest.TestHANLinkedList" />
+      <option name="METHOD_NAME" value="testAddFirstAndGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHANLinkedList.testGetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APP_ASSESMENT_VOORBEREIDING" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ListsStacksQueuesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ListsStacksQueuesTest" />
+      <option name="MAIN_CLASS_NAME" value="ListsStacksQueuesTest.TestHANLinkedList" />
+      <option name="METHOD_NAME" value="testGetSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHANLinkedList.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APP_ASSESMENT_VOORBEREIDING" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ListsStacksQueuesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ListsStacksQueuesTest" />
+      <option name="MAIN_CLASS_NAME" value="ListsStacksQueuesTest.TestHANLinkedList" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,51 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOwnArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APP_ASSESMENT_VOORBEREIDING" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ListsStacksQueuesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ListsStacksQueuesTest" />
-      <option name="MAIN_CLASS_NAME" value="ListsStacksQueuesTest.TestOwnArrayList" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOwnArrayList.testMultiplyArrayLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APP_ASSESMENT_VOORBEREIDING" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ListsStacksQueuesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ListsStacksQueuesTest" />
-      <option name="MAIN_CLASS_NAME" value="ListsStacksQueuesTest.TestOwnArrayList" />
-      <option name="METHOD_NAME" value="testMultiplyArrayLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.OwnArrayList" />
-      <item itemvalue="JUnit.TestHANLinkedList.testRemoveFirst" />
+      <item itemvalue="JUnit.TestHANLinkedList.testAddFirstAndGet" />
+      <item itemvalue="JUnit.TestHANLinkedList.testInsert" />
       <item itemvalue="JUnit.TestHANLinkedList.testRemove" />
-      <item itemvalue="JUnit.TestOwnArrayList" />
-      <item itemvalue="JUnit.TestOwnArrayList.testMultiplyArrayLength" />
+      <item itemvalue="JUnit.TestHANLinkedList.testRemoveFirst" />
+      <item itemvalue="JUnit.TestHANLinkedList.testGetSize" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestOwnArrayList.testMultiplyArrayLength" />
-        <item itemvalue="Application.OwnArrayList" />
-        <item itemvalue="JUnit.TestOwnArrayList" />
-        <item itemvalue="JUnit.TestHANLinkedList.testRemove" />
+        <item itemvalue="JUnit.TestHANLinkedList.testGetSize" />
         <item itemvalue="JUnit.TestHANLinkedList.testRemoveFirst" />
+        <item itemvalue="JUnit.TestHANLinkedList.testRemove" />
+        <item itemvalue="JUnit.TestHANLinkedList.testInsert" />
+        <item itemvalue="JUnit.TestHANLinkedList.testAddFirstAndGet" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +157,8 @@
       <workItem from="1568358447476" duration="5168000" />
       <workItem from="1568465320709" duration="551000" />
       <workItem from="1568537159151" duration="6731000" />
+      <workItem from="1568578077669" duration="613000" />
+      <workItem from="1568667019947" duration="2833000" />
     </task>
     <servers />
   </component>

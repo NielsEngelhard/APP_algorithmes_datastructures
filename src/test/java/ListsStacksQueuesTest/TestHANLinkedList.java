@@ -26,14 +26,14 @@ public class TestHANLinkedList {
     }
 
     @Test
-    public void testAdd() {
-        list.addFirst("begin object 3");
-        list.addFirst("begin object 2");
-        list.addFirst("begin object 1");
-        list.addFirst("begin object 0");
+    public void testInsert() {
+        list.addFirst( "begin object 3");
+        list.addFirst( "begin object 2");
+        list.addFirst( "begin object 1");
+        list.addFirst( "begin object 0");
 
-        list.add(1, "NEWPOSONE");
-        list.add(3, "NEWPOSTHREE");
+        list.insert(1, "NEWPOSONE");
+        list.insert(3, "NEWPOSTHREE");
 
         assertEquals("NEWPOSONE", list.get(1));
         assertEquals("NEWPOSTHREE", list.get(3));
@@ -48,7 +48,7 @@ public class TestHANLinkedList {
         list.addFirst("add pos 1");
         list.addFirst("add pos 0");
 
-        list.remove(3);
+        list.delete(3);
         assertEquals("add pos 4", list.get(3));
     }
 
@@ -62,6 +62,15 @@ public class TestHANLinkedList {
 
         assertEquals("something 1", list.get(1));
         assertEquals("something 2", list.get(0));
-        assertNull(list.get(3));
+    }
+
+
+    @Test
+    public void testGetSize() {
+        list.addFirst("something 1");
+        list.addFirst("something 2");
+        list.addFirst("something 3");
+
+        assertEquals(3, list.getSize());
     }
 }
